@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Homepage</title>
+</head>
+
+<body class="font-poppins bg-gray_light">
+  <header class="flex justify-between pt-7">
+    <img src="/src/img/alarado-icon-homepage.svg" alt="Logo Alarado">
+    <nav>
+      <ul class="flex gap-12 text-sm text-dark_light">
+        <li class="font-semibold"><a href="#">About us</a></li>
+        <li><a href="#" class="font-medium">Product</a></li>
+        <li><a href="#" class="font-medium">Resource</a></li>
+        <li><a href="#" class="font-medium">Contact</a></li>
+      </ul>
+    </nav>
+    <label class="switch">
+      <input type="checkbox" checked>
+      <span class="slider round"></span>
+    </label>
+  </header>
+
+  <main class="mt-24">
+    <div class="flex flex-col lg:flex-row-reverse justify-between">
+      <div class="lg:w-1/2">
+        <img src="/src/img/hero-image-simple-homepage.png" alt="Hero Image">
+      </div>
+
+      <div class="lg:w-2/5">
+        <p class="uppercase text-sm font-semibold text-dark">😎 Simple way to communicate</p>
+        <h1 class="font-bold text-6xl text-dark_light leading-[1.5] mt-4 mb-8">Actions for Accessibility in Design</h1>
+        <p class="text-lg text-dark_light font-medium">The fastest way to build and deploy websites with resusable components.</p>
+        <div class="flex items-center gap-8 my-5">
+          <a href="#" class="text-white bg-blue font-semibold py-4 px-8 rounded-xl inline-block uppercase">Get Started</a>
+          <a href="#" class="text-blue font-semibold underline underline-offset-2 decoration-2 inline-block">Get live demo</a>
+        </div>
+        <div class="mt-9">
+          <ul class="flex gap-5 text-sm text-dark">
+            <li class="flex items-center gap-2">
+              <img src="/src/img/Done_ring_round_fill.svg" alt="Check Logo">
+              <span>No credit card required</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/src/img/Done_ring_round_fill.svg" alt="Check Logo">
+              <span>No software to install</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
