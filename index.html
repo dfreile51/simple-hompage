@@ -11,7 +11,8 @@
 <body class="font-poppins bg-gray_light">
   <header class="flex justify-between pt-7">
     <img src="/src/img/alarado-icon-homepage.svg" alt="Logo Alarado">
-    <nav>
+
+    <nav class="sm:block hidden">
       <ul class="flex gap-12 text-sm text-dark_light">
         <li class="font-semibold"><a href="#">About us</a></li>
         <li><a href="#" class="font-medium">Product</a></li>
@@ -23,21 +24,51 @@
       <input type="checkbox" checked>
       <span class="slider round"></span>
     </label>
+
+    <button class="sm:hidden block cursor-pointer">
+      <img src="/src/img/menu.svg" alt="Menu Icon">
+    </button>
   </header>
+
+  <aside class="sidebar">
+    <div class="flex justify-end">
+      <button class="mr-4 mt-4">
+        <img src="/src/img/close.svg" alt="Close Icon">
+      </button>
+    </div>
+    <div class="flex flex-col items-center">
+      <nav class="my-10">
+        <ul class="flex flex-col items-center gap-11 text-4xl text-dark_light">
+          <li class="font-semibold"><a href="#">About us</a></li>
+          <li><a href="#" class="font-semibold opacity-70">Product</a></li>
+          <li><a href="#" class="font-semibold opacity-70">Resource</a></li>
+          <li><a href="#" class="font-semibold opacity-70">Contact</a></li>
+        </ul>
+      </nav>
+      <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </aside>
 
   <main class="mt-24">
     <div class="flex flex-col lg:flex-row-reverse justify-between">
       <div class="lg:w-1/2">
-        <img src="/src/img/hero-image-simple-homepage.png" alt="Hero Image">
+        <img class="sm:w-3/5 sm:m-auto lg:m-0 lg:w-full" src="/src/img/hero-image-simple-homepage.png" alt="Hero Image">
       </div>
 
-      <div class="lg:w-2/5">
+      <div class="lg:w-2/5 lg:m-0 mt-24 lg:p-0 sm:px-24 px-16 pb-[60px] lg:pb-0">
         <p class="uppercase text-sm font-semibold text-dark">😎 Simple way to communicate</p>
         <h1 class="font-bold text-6xl text-dark_light leading-[1.5] mt-4 mb-8">Actions for Accessibility in Design</h1>
-        <p class="text-lg text-dark_light font-medium">The fastest way to build and deploy websites with resusable components.</p>
+        <p class="text-lg text-dark_light font-medium lg:w-full sm:w-3/5 w-full">The fastest way to build and deploy
+          websites with
+          resusable components.</p>
         <div class="flex items-center gap-8 my-5">
-          <a href="#" class="text-white bg-blue font-semibold py-4 px-8 rounded-xl inline-block uppercase">Get Started</a>
-          <a href="#" class="text-blue font-semibold underline underline-offset-2 decoration-2 inline-block">Get live demo</a>
+          <a href="#" class="text-white bg-blue font-semibold py-4 px-8 rounded-xl inline-block uppercase">Get
+            Started</a>
+          <a href="#" class="text-blue font-semibold underline underline-offset-2 decoration-2 inline-block">Get live
+            demo</a>
         </div>
         <div class="mt-9">
           <ul class="flex gap-5 text-sm text-dark">
