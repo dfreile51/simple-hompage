@@ -16,5 +16,6 @@ export default {
             poppins: ['Poppins', 'sans-serif'],
         },
     },
+    darkMode: 'selector',
     plugins: [],
 }
