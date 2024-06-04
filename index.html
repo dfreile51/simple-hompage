@@ -8,16 +8,16 @@
   <title>Simple Homepage</title>
 </head>
 
-<body class="font-poppins bg-gray_light">
+<body class="font-poppins bg-gray_light dark:bg-dark">
   <header class="flex justify-between pt-7">
     <img src="/src/img/alarado-icon-homepage.svg" alt="Logo Alarado">
 
     <nav class="sm:block hidden">
-      <ul class="flex gap-12 text-sm text-dark_light">
-        <li class="font-semibold"><a href="#">About us</a></li>
-        <li><a href="#" class="font-medium">Product</a></li>
-        <li><a href="#" class="font-medium">Resource</a></li>
-        <li><a href="#" class="font-medium">Contact</a></li>
+      <ul class="flex gap-12 text-sm text-dark_light dark:text-white font-semibold">
+        <li><a href="#">About us</a></li>
+        <li><a href="#" class="opacity-75 dark:opacity-35 dark:font-medium">Product</a></li>
+        <li><a href="#" class="opacity-75 dark:opacity-35 dark:font-medium">Resource</a></li>
+        <li><a href="#" class="opacity-75 dark:opacity-35 dark:font-medium">Contact</a></li>
       </ul>
     </nav>
     <label class="switch">
@@ -38,11 +38,11 @@
     </div>
     <div class="flex flex-col items-center">
       <nav class="my-10">
-        <ul class="flex flex-col items-center gap-11 text-4xl text-dark_light">
+        <ul class="flex flex-col items-center gap-11 text-4xl text-dark_light dark:text-white">
           <li class="font-semibold"><a href="#">About us</a></li>
-          <li><a href="#" class="font-semibold opacity-70">Product</a></li>
-          <li><a href="#" class="font-semibold opacity-70">Resource</a></li>
-          <li><a href="#" class="font-semibold opacity-70">Contact</a></li>
+          <li><a href="#" class="font-semibold opacity-75 dark:opacity-35">Product</a></li>
+          <li><a href="#" class="font-semibold opacity-75 dark:opacity-35">Resource</a></li>
+          <li><a href="#" class="font-semibold opacity-75 dark:opacity-35">Contact</a></li>
         </ul>
       </nav>
       <label class="switch">
@@ -59,26 +59,26 @@
       </div>
 
       <div class="lg:w-2/5 lg:m-0 mt-24 lg:p-0 sm:px-24 px-16 pb-[60px] lg:pb-0">
-        <p class="uppercase text-sm font-semibold text-dark">😎 Simple way to communicate</p>
-        <h1 class="font-bold text-6xl text-dark_light leading-[1.5] mt-4 mb-8">Actions for Accessibility in Design</h1>
-        <p class="text-lg text-dark_light font-medium lg:w-full sm:w-3/5 w-full">The fastest way to build and deploy
+        <p class="uppercase text-sm font-semibold dark:font-medium text-dark dark:text-white ">😎 Simple way to communicate</p>
+        <h1 class="font-bold text-6xl text-dark_light dark:text-white leading-[1.5] mt-4 mb-8">Actions for Accessibility in Design</h1>
+        <p class="text-lg text-dark_light dark:text-white opacity-75 dark:opacity-35 font-medium dark:font-normal lg:w-full sm:w-3/5 w-full">The fastest way to build and deploy
           websites with
           resusable components.</p>
-        <div class="flex items-center gap-8 my-5">
+        <div class="flex items-center gap-8 mb-5 mt-10">
           <a href="#" class="text-white bg-blue font-semibold py-4 px-8 rounded-xl inline-block uppercase">Get
             Started</a>
           <a href="#" class="text-blue font-semibold underline underline-offset-2 decoration-2 inline-block">Get live
             demo</a>
         </div>
         <div class="mt-9">
-          <ul class="flex gap-5 text-sm text-dark">
+          <ul class="flex gap-5 text-sm text-dark dark:text-white">
             <li class="flex items-center gap-2">
               <img src="/src/img/Done_ring_round_fill.svg" alt="Check Logo">
-              <span>No credit card required</span>
+              <span class="opacity-85 dark:opacity-35">No credit card required</span>
             </li>
             <li class="flex items-center gap-2">
               <img src="/src/img/Done_ring_round_fill.svg" alt="Check Logo">
-              <span>No software to install</span>
+              <span class="opacity-85 dark:opacity-35">No software to install</span>
             </li>
           </ul>
         </div>
