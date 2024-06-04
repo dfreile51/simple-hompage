@@ -22,30 +22,30 @@ document.addEventListener('DOMContentLoaded', () => {
         if (localStorage.getItem('theme') === 'dark') {
             input.checked = false
             htmlTag.classList.add('dark')
-            LogoImage.src = '/src/img/alarado-icon-homepage-dark.svg'
-            buttonMenu.firstElementChild.src = '/src/img/menu-dark.svg'
-            buttonClose.firstElementChild.src = '/src/img/close-dark.svg'
+            LogoImage.src = '/img/alarado-icon-homepage-dark.svg'
+            buttonMenu.firstElementChild.src = '/img/menu-dark.svg'
+            buttonClose.firstElementChild.src = '/img/close-dark.svg'
         } else {
             input.checked = true
             htmlTag.classList.remove('dark')
-            LogoImage.src = '/src/img/alarado-icon-homepage.svg'
-            buttonMenu.firstElementChild.src = '/src/img/menu.svg'
-            buttonClose.firstElementChild.src = '/src/img/close.svg'
+            LogoImage.src = '/img/alarado-icon-homepage.svg'
+            buttonMenu.firstElementChild.src = '/img/menu.svg'
+            buttonClose.firstElementChild.src = '/img/close.svg'
         }
 
         input.addEventListener('click', e => {
             if (e.target.checked) {
                 localStorage.setItem('theme', 'light')
                 htmlTag.classList.remove('dark')
-                LogoImage.src = '/src/img/alarado-icon-homepage.svg'
-                buttonMenu.firstElementChild.src = '/src/img/menu.svg'
-                buttonClose.firstElementChild.src = '/src/img/close.svg'
+                LogoImage.src = '/img/alarado-icon-homepage.svg'
+                buttonMenu.firstElementChild.src = '/img/menu.svg'
+                buttonClose.firstElementChild.src = '/img/close.svg'
             } else {
                 localStorage.setItem('theme', 'dark')
                 htmlTag.classList.add('dark')
-                LogoImage.src = '/src/img/alarado-icon-homepage-dark.svg'
-                buttonMenu.firstElementChild.src = '/src/img/menu-dark.svg'
-                buttonClose.firstElementChild.src = '/src/img/close-dark.svg'
+                LogoImage.src = '/img/alarado-icon-homepage-dark.svg'
+                buttonMenu.firstElementChild.src = '/img/menu-dark.svg'
+                buttonClose.firstElementChild.src = '/img/close-dark.svg'
             }
         })
     })

@@ -48,7 +48,7 @@ body {
 .slider::after {
     position: absolute;
     content: "";
-    background-image: url(/src/img/Sun_fill_light.svg);
+    background-image: url(/img/Sun_fill_light.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px 20px;
@@ -61,7 +61,7 @@ body {
 .slider::before {
     position: absolute;
     content: "";
-    background-image: url(/src/img/Moon_fill.svg);
+    background-image: url(/img/Moon_fill.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px 20px;
@@ -78,13 +78,13 @@ input:checked+.slider {
 }
 
 input:checked+.slider::after {
-    background-image: url(/src/img/Moon_fill_light.svg);
+    background-image: url(/img/Moon_fill_light.svg);
     left: 2px;
 }
 
 input:checked+.slider::before {
     transform: translateX(24px);
-    background-image: url(/src/img/Sun_fill.svg);
+    background-image: url(/img/Sun_fill.svg);
 }
 
 .slider.round {
